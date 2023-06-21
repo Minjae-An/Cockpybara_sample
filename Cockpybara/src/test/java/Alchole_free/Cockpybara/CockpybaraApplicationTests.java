@@ -9,5 +9,4 @@ class CockpybaraApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
