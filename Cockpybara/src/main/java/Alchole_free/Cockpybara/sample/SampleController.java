@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class SampleController {
 
-    @GetMapping("/search")
+    @GetMapping("/sample/search")
     @ResponseBody
     public ResponseEntity<List<SampleRecipe>> helloApi(@RequestParam("name") String name) {
         ArrayList<SampleRecipe> recipeList = new ArrayList<>();
